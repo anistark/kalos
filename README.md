@@ -12,7 +12,7 @@ _A 13-Month Open Source Calendar_
   To account for the solar year of approximately 365.2422 days, Kalos introduces a leap adjustment:
   - A **leap day (or leap week)** is added approximately every 5 to 6 years.
   - Over long periods (e.g., 10,000 years), about **1,775 leap weeks** are required, averaging a leap week every **5.63 years**.
-  - A practical rule might be to add a leap week every 5 years, with periodic adjustments (e.g., skipping a leap week every 30 years) to fine-tune alignment with the solar year.
+  - A practical rule might be to add a leap day every 5 years, with periodic adjustments (e.g., skipping a leap day every 30 years) to fine-tune alignment with the solar year.
 
 ## Benefits Over the Gregorian Calendar
 
@@ -60,7 +60,8 @@ _A 13-Month Open Source Calendar_
 - **Average Interval:** 10,000 / 1,775 ≅ 5.63 years
 
 ### Proposed Rule
-- **Add a leap week every 5 years**, with periodic adjustments (e.g., skipping a leap week every 30 years) to maintain the alignment with the solar year.
+- **Add a leap day every 5 years**, with periodic adjustments (e.g., skipping a leap day every 30 years) to maintain the alignment with the solar year.
+- However, do not count this day in week. Make it a universal holiday as extra day. This keeps the balance with 7 day week throughout.
 
 ---
 
